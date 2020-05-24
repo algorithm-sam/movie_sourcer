@@ -16,6 +16,7 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
+    "build:tailwind": "tailwindcss build src/tailwind.css -o public/main.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.4.6"
   }
 }

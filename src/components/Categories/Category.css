@@ -1,0 +1,16 @@
+.poster-container {
+    max-width: 20%;
+    max-height: 320px;
+}
+
+.poster-container img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.title {
+    overflow: hidden;
+    width: inherit;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
